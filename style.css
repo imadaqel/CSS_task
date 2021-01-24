@@ -1,0 +1,49 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.img1{
+
+    position: relative;
+    display:inline;
+    top: 80px;
+    left: 60px;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.img2 {
+    position: absolute;
+    top: 290px;
+    left: 400px;
+    max-width: 50%;
+    height: auto;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .img2 {
+      display:none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .img1 {
+      top: 0px;
+    left: 0px;
+    max-width: 99%;
+    }
+  }
