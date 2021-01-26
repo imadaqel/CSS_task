@@ -41,9 +41,7 @@ body{
   }
   .img3{
     position: relative;
-    /* top: 200px;
-    left: 40px; */
-    float: left;
+      float: left;
   }
   .lm{
     position: relative;
@@ -53,23 +51,12 @@ body{
   }
   .img4{
     position: relative;
-    /* top: -47px;
-    left: 40px; */
     float:inline-end;
   }
   .img5{
     position: relative;
-    /* top: -47px;
-    left: 40px; */
-    float: left;
+      float: left;
   }
-  /* .all{
-    position: relative;
-    top: -47px; 
-    left: 400px;
-
-  } */
-
 
   
   @media only screen and (max-width: 600px) {
@@ -89,7 +76,7 @@ body{
       top: 0px;
     left: 0px;
     width:40%;
-    /* float:inline-end; */
+    
     }
     .img5 {
         top: 0px;
