@@ -33,17 +33,100 @@ body{
     max-width: 50%;
     height: auto;
   }
+  .lm{
+    position: relative;
 
+        top: 200px;
+        left: 60px;
+  }
+  .img3{
+    position: relative;
+      float: left;
+  }
+  .lm{
+    position: relative;
 
+        top: 200px;
+        left: 60px;
+  }
+  .img4{
+    position: relative;
+    float:inline-end;
+  }
+  .img5{
+    position: relative;
+      float: left;
+  }
+
+  
   @media only screen and (max-width: 600px) {
     .img2 {
       display:none;
     }
   }
+  @media (min-width: 600px) and (max-width: 1050px){
+    
+    .img3 {
+
+      top: 0px;
+    left: 0px;
+    width: 80%;
+    }
+    .img4 {
+      top: 0px;
+    left: 0px;
+    width:40%;
+    
+    }
+    .img5 {
+        top: 0px;
+      left: 0px;
+      width:40%;
+    }
+      .img6 {
+        top: 5px;
+      left: 0px;
+      width:40%;
+
+      }
+      .img7 {
+        top: 0px;
+      left: 0px;
+      width:40%;
+      }
+ }
+  
   @media only screen and (max-width: 600px) {
     .img1 {
       top: 0px;
     left: 0px;
-    max-width: 99%;
+    max-width: 98%;
     }
-  }
+    .img3 {
+        top: 0px;
+        left: 0px;
+        width: 98%;
+    }
+    .img4 {
+        top: 0px;
+      left: 0px;
+      width: 98%;
+      }
+      .img5 {
+        top: 0px;
+      left: 0px;
+      width: 98%;
+      }
+      .img6 {
+        top: 0px;
+      left: 0px;
+      width: 98%;
+      }
+      .img7 {
+        top: 0px;
+      left: 0px;
+      width: 98%;
+      }
+
+}
+
