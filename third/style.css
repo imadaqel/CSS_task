@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: ’Lato’, sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-grow: 1;  
+}
+ul {
+  list-style: none;
+}
+footer {
+  background-image:url("https://res.cloudinary.com/imad2514/image/upload/v1611696004/footer2_rgnehw.png");
+
+  color: #bbb;
+  line-height: 1.5;
+  width:auto;
+  background-repeat: no-repeat;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #D4D5D5;
+  font-family: ’Merriweather’, serif;
+  font-size: 3rem;
+  padding-bottom: 0.625rem;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+ 
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem ;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.4rem 0.8rem;
+  white-space: nowrap;
+}
+.ft-legal-list li:nth-last-child(2) {
+  flex: 0.98;  
+}
